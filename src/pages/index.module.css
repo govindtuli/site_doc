@@ -1,0 +1,62 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profilePicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background: src="static/img/govind3.jpg" no-repeat center center;
+  background-size: cover;
+}
+
+
+.socialLinks a {
+  margin-right: 10px;
+}
+
+.bio {
+  text-align: center;
+}
+
+.followButton {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.socialButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0077b5; /* LinkedIn blue */
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none; /* Removes underline from the link */
+}
+
+.socialButton:hover {
+  opacity: 0.8;
+}
+
+/* Specific styles for GitHub button, if needed */
+.socialButton:nth-child(2) {
+  background-color: #333; /* GitHub dark */
+}
