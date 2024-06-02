@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://govindtuli.github.io/site_doc/blog"/>
     <subtitle>Govind Tuli Blog</subtitle>
-    <icon>https://govindtuli.github.io/site_doc/img/favicon.ico</icon>
+    <icon>https://govindtuli.github.io/site_doc/img/og_image.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://govindtuli.github.io/site_doc/blog/welcome</id>
